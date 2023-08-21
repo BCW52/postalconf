@@ -1,0 +1,10 @@
+zone "ns.bayswaterfinancials.com" {
+    type primary;
+    file "/etc/bind/zones/ns.bayswaterfinancials.com.db"; # zone file path
+    allow-transfer { 172.31.8.70; };           # ns2 private IP address - secondary
+};
+zone "9.192.in-addr.arpa" {
+    type primary;
+    file "/etc/bind/zones/bayswaterfinancials.com.db";
+    allow-transfer { 172.31.8.70; };  # ns2 private IP address - secondary
+};

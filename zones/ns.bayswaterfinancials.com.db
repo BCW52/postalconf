@@ -1,0 +1,19 @@
+$TTL    604800
+@       IN      SOA     ns1.bayswaterfinancials.com. info.ns1.bayswaterfinancials.com. (
+                  3     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800 )   ; Negative Cache TTL
+;
+;
+name servers - NS records
+    IN      NS      ns1.bayswaterfinancials.com.
+    IN      NS      ns2.bayswaterfinancials.com.
+; name servers - A records
+ns1.bayswaterfinancials.com.          IN      A       172.31.8.70
+ns2.bayswaterfinancials.com.          IN      A       172.31.8.70
+
+; 10.128.0.0/16 - A records
+host1.bayswaterfinancials.com.        IN      A      172.31.8.70
+host2.bayswaterfinancials.com.        IN      A      172.31.8.70

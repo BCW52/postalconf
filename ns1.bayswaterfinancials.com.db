@@ -1,0 +1,8 @@
+
+; Panel %version%
+; Zone file for ns1.bayswaterfinancials.com
+$TTL 14400
+ns1.bayswaterfinancials.com.      86400      IN      SOA      ns1.bayswaterfinancials.com.
+ns1.bayswaterfinancials.com. 86400 IN NS ns1.bayswaterfinancials.com.
+ns1.bayswaterfinancials.com. 86400 IN NS ns2.bayswaterfinancials.com.
+ns1.bayswaterfinancials.com. 14400 IN A 172.31.8.70
